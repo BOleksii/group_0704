@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--base-font-size);
+  font-family: var(--base-font-family);
+  color: var(--base-text-color);
+}
+
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex-conteiner {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.header {
+  width: 100%;
+  height: 150px;
+  display: flexbox;
+  background-color: indigo;
+}
+
+.main-section {
+  width: 100%;
+  min-height: initial;
+  background-color: magenta;
+}
+
+.footer {
+  width: 100%;
+  height: 150px;
+  display: flexbox;
+  background-color: green;
+}

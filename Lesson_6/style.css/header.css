@@ -1,0 +1,26 @@
+.page-header {
+  background-color: var(--header-bg-color);
+  height: 40px;
+}
+
+.logo {
+  margin-top: 15px;
+  color: var(--header-bg-color);
+}
+
+.page-header > .page-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  margin-right: 27px;
+  display: flex;
+  align-items: center;
+  color: var(--base-text-color);
+}

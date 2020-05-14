@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #292325;
+}
+
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.page-nav {
+  text-align: center;
+  height: 90px;
+  border-bottom: 2px solid #131313;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.page-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.page-link {
+  color: #131313;
+  display: inline-block;
+  margin: 0 20px;
+  line-height: 90px;
+}
+.page-link.activ {
+  color: #efefef;
+}
+.page-link:hover {
+  color: #efefef;
+}
+.page-content {
+  background-color: white;
+  min-height: calc(100vh - 90px);
+}
+.name-section {
+  text-align: center;
+  margin: 36px;
+}
+.promotion-baner {
+  font-size: 0px;
+}
+.baner-item {
+  font-size: 15px;
+  height: 500px;
+  width: calc(33.3333% - 16px);
+  display: inline-block;
+  margin: 0 8px;
+  position: relative;
+  text-align: center;
+}
+.page-footer {
+  height: 50px;
+  background: #f7eae4;
+  margin: 0 auto;
+  text-align: center;
+}
+.item-description {
+  position: absolute;
+  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.action-button {
+  display: block;
+  width: 150px;
+  color: #292325;
+  margin: 40px auto 0;
+  padding: 12px 20px;
+  background-color: white;
+  border: 1px solid white;
+}
+.action-button:hover {
+  border-color: #292325;
+}
+.baner-item.colored {
+  background-color: #f7eae4;
+}
+.baner-item.with-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.strclinlineContent {
+  background-color: lightseagreen;
+  position: relative;
+  max-width: 960px;
+  height: 120px;
+  margin: 20px 8px;
+}
+.letter {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.strc {
+  font-size: 0px;
+}
+.container {
+  font-size: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: calc(50% - 16px);
+  height: 500px;
+  display: inline-block;
+  margin: 0 8px;
+}
+.btn {
+  display: block;
+  color: #292325;
+  font-size: 15px;
+  text-align: center;
+  width: 130px;
+  height: 40px;
+  margin-left: 310px;
+  margin-top: 400px;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.btn:hover {
+  border-color: #292325;
+}
+.lineContent {
+  background-color: white;
+  position: relative;
+  max-width: 960px;
+  height: 250px;
+  margin: 0 0px;
+}
+.baner {
+  background-color: white;
+  position: relative;
+  max-width: 960px;
+  height: 50px;
+  margin-top: 40px;
+  text-align: center;
+}
+.line-foto {
+  font-size: 180px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: calc(11% - 6px);
+  height: 180px;
+  display: inline-block;
+  margin: 0 8px;
+}
+.subscribe-section {
+  background-color: white;
+  position: relative;
+  max-width: 960px;
+  height: 250px;
+  margin: 0 0px;
+  text-align: center;
+}
+.newsletter {
+  position: absolute;
+  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.subscribe {
+  height: 30px;
+  position: relative;
+  border: 1px solid black;
+  min-height: 15px;
+  width: 300px;
+  margin-top: 170px;
+}
+.subscribe-button {
+  height: 30px;
+  position: relative;
+  border: 1px solid black;
+  min-height: 15px;
+  width: 300px;
+  margin-top: 8px;
+  text-align: center;
+}
+.subscribe-button-subscribe :hover {
+  color: #292325;
+}
+.subscribe-button {
+  text-decoration-color: yellow;
+}

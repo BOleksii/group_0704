@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #003471;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-section {
+  display: -webkit-flex;
+  display: flex;
+  border: 1px solid red;
+  width: 600px;
+  height: 200px;
+}
+
+.nav-item {
+  border: 1px solid green;
+  height: 100%;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  align-content: space-around;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-end;
+}

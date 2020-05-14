@@ -1,0 +1,9 @@
+.icon-home {
+  *zoom: expression(thisruntimeStyle[] = "1", thisinnerHTML = "&#xe800;&nbsp;");
+}
+.icon-picture-1 {
+  *zoom: expression(thisruntimeStyle[] = "1", thisinnerHTML = "&#xe802;&nbsp;");
+}
+.icon-emo-devil {
+  *zoom: expression(thisruntimeStyle[] = "1", thisinnerHTML = "&#xe805;&nbsp;");
+}

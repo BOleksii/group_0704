@@ -1,0 +1,30 @@
+:root {
+  --column-width: calc(100% / 12);
+}
+
+.grid-view {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  padding: 6px;
+}
+
+[class*="col-"] {
+  flex-grow: 0;
+  flex-shrink: 0;
+  min-height: 50px;
+  padding: 6px;
+}
+
+.col-1 {
+  width: var(--column-width);
+}
+
+.col-2 {
+  width: var(--column-width);
+}
+
+.col-3 {
+  width: var(--column-width);
+}
